@@ -1,57 +1,111 @@
-<body>
-	<div id="page-banner" class="banner">
-		<h1 id="title"> Words Words Words </h1>
-		<nav>
-			<a href="#contact-info">Contact Information</a>
-			<a href="#education">qwer</a>
-			<a href="#skills-qualification"> asdf</a>
-			<a href="#publication">dsfgkjl</a>
-		</nav>
-	</div>
-	<div id="main-resume">
-		<section id="contact-info" class="resume-section">
-			<h2 class="section-header"> Contact Information </h2>
-			<h3 class="subsec-header">Permanent Address</h3>
-				<address id="perm-address" class="address">
-					<p class="street-address">
-						<span class="address street">12345 Something Ct.<br></span>
-						<span class="address city">City</span>
-						<span class="address state">VA,</span>
-						<span class="address post-code">12345</span>
-					</p>
-				</address>
-			<h3 class="subsec-header">Home Address</h3>
-				<address id="home-address" class="address">
-					<p class="street-address">
-						<span class="address street">12345 Street Rd.<br></span>
-						<span class="address city">Blacksburg</span>
-						<span class="address state">VA,</span>
-						<span class="address post-code">24060</span>
-					</p>
-				</address>
-			<h3 class="subsec-header">Phone Number</h3>
-			<p>407-538-3871</p>
-			<h3 class="subsec-header">Email</h3>
-			<p>cmfinley3@gmail.com</p>
-		</section>
-		<section id="education" class="resume-section">
-			<h2 class="section-header">Education</h2>
-			<ul>
-				<li class="degree">Virginia Tech</li>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Molly's Resume</title>
+	</head>
+	<body>
+		<div id="page-banner" class="banner">
+			<h1 id="title">Molly Finley (she/they)</h1>
+			<img src="asdf.png">
+			<nav>
+				<a href="#contact-info">Contact Information</a>
+				<a href="#education">Education</a>
+				<a href="#experience">Experience</a>
+				<a href="#skills-qualification">Skills</a>
+			</nav>
+		</div>
+		<div id="main-resume">
+			<section id="contact-info" class="resume-section">
+				<h2 class="section-header"> Contact Information </h2>
+				<h3 class="subsec-header">Legal Address</h3>
+					<address id="perm-address" class="address">
+						<p class="street-address">
+							<span class="address street">10437 Steeplechase Run Ln.<br></span>
+							<span class="address city">Manassas</span>
+							<span class="address state">VA,</span>
+							<span class="address post-code">20110</span>
+						</p>
+					</address>
+				<h3 class="subsec-header">Current Address</h3>
+					<address id="home-address" class="address">
+						<p class="street-address">
+							<span class="address street">200 Cedar Pointe Dr.<br></span>
+							<span class="address apt">Apt 108</span>
+							<span class="address city">Blacksburg</span>
+							<span class="address state">VA,</span>
+							<span class="address post-code">24060</span>
+						</p>
+					</address>
+				<h3 class="subsec-header">Cell Phone</h3>
+				<p>407.538.3871</p>
+				<h3 class="subsec-header">Email</h3>
+				<p>cmfinley3@gmail.com</p>
+			</section>
+			<section id="education" class="resume-section">
+				<h2 class="section-header">Education</h2>
+				<p class="school">Virginia Tech (3.86 Overall GPA) - Graduating 2023</p>
 				<ul>
-					<li>Science</li>
-					<li>Math</li>
+					<li class="degree">Pursuing BS in Computer Science (4.00 In-Major GPA)</li>
+					<li class="degree">Pursuing BS in Mathematics (3.65 In-Major GPA)</li>
 				</ul>
-				<li class="degree">Nova</li>
-			</ul>
-		</section>
-		<section id="skills-qualification" class="resume-section">
-			<h2 class="section-header">Skills</h2>
-			<h3 class="subsec-header skill-header">Programming</h3>
-			<h3 class="subsec-header skill-header">Computers</h3>
-		</section>
-		<section id="publication" class="resume-section">
-			<h2 class="section-header"> Contact Information </h2>
-		</section>
-	</div>
-</body>
+			</section>
+			<section id="experience" class="resume-section">
+				<h2 class="section-header">Experience</h2>
+				<h3 class="subsec-header">SideDoor (2021 - Present)</h3>
+				<h4 class="subsec-header">Data Engineer</h4>
+				<ul>
+					<li>Cleaned up vendor data to our template using Excel & Python.</li>
+					<li>Wrote a utility to scrape vendor websites into our template using BeautifulSoup and Selenium</li>
+					<li>Interfaced with vendor SOAP APIs to obtain product data</li>
+				</ul>
+				<h3 class="subsec-header">Lockheed Martin (2018 - 2021)</h3>
+				<h4 class="subsec-header">Software Engineering Intern (Summer 2021)<br>Software Engineering Apprentice (June 2018 - August 2020)</h4>
+				<ul class="things">
+					<li>Programmed User Interfaces utilizing Java Swing and JavaFX</li>
+					<ul>
+						<li>Fixed bugs in a large code base to make the system easier on its users</li>
+						<li>Implemented a reusable component and refactored a large code base to use it (~a couple 
+						thousand lines of code)</li>
+					</ul>
+					<li>Helped develop an automated testing framework</li>
+					<ul>
+						<li>Implemented hooks between the Python testing framework and the Java display using gRPC</li>
+					</ul>
+					<li>Worked on a VR Demo in Unity and C#</li>
+				</ul>
+				<h3 class="subsec-header">Math Tutoring (2015 - 2018)</h3>
+				<ul>
+				<li>Tutored students in Algebra, Geometry and Pre-Calculus</li>
+				</ul>
+			</section>
+			<section id="skills-qualification" class="resume-section">
+				<h2 class="section-header">Skills</h2>
+					<h3 class="subsec-header skill-header">Languages</h3>
+					<ul class="language">
+						<li class="language">Java</li>
+						<li class="language">Python</li>
+						<li class="language">C</li>
+						<li class="language">C#</li>
+					</ul>
+					<h3 class="subsec-header skill-header">Software/Technologies</h3>
+					<ul class="software">
+						<li class="software">Git</li>
+						<li class="software">Gerrit</li>
+						<li class="software">Jira</li>
+						<li class="software">Excel</li>
+						<li class="software">BeautifulSoup</li>
+						<li class="software">Selenium</li>
+						<li class="software">SOAP</li>
+					</ul>
+					<h3 class="subsec-header skill-header">Operating Systems</h3>
+					<ul class="os">
+						<li class="os">RHEL</li>
+						<li class="os">Debian</li>
+						<li class="os">Windows</li>
+						<li class="os">macOS</li>
+					</ul>
+			</section>
+		</div>
+	</body>
