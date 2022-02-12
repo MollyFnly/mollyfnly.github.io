@@ -1,0 +1,92 @@
+/* name and pronouns needs specific formatting */
+#name-pronouns {
+    font-size: 4.2vh;
+    min-width:60%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* banner object needs specific formatting */
+#page-banner {
+    display: flex;
+    background-color: rgb(24, 37, 37);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-color: black;
+    border-width: 1vh;
+    height:  var(--banner-size);
+    color: white;
+    border: 0.5vh solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+/* different tier headings need different text sizes */
+h3 {
+    font-size: 2.75vh;
+}
+
+h4 {
+    font-size: 2.5vh;
+}
+
+span, li, p {
+    font-size: 2vh;
+    /* give actual info different color for contrast */
+    color:rgb(201, 252, 216);
+}
+
+nav {
+    width: 20%;
+}
+
+/* make nav elements look like buttons instead of links */
+nav a {
+    font-size: 2vh;
+    display: block;
+    margin: 1vh;
+    background-color: rgb(182, 253, 255);
+    border-color: black;
+    border: 0.1vh solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* make text cut off instead of overflow */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+img {
+    /* make image maintain aspect ratio */
+    object-fit: contain;
+    min-width: 20%;
+    height: var(--banner-size)-1;
+}
+
+/* base stats. default background and text color and font */
+:root {
+    --banner-size: 20vh;
+    background-color: rgb(56, 82, 82);
+    color: rgb(149, 254, 178);
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* section headers get a specific styling. the nice box */
+.section-header {
+    text-align: center;
+    font-size: 3.8vh;
+    background-color: rgb(24, 37, 37);
+    border: 0.1vh solid rgb(255, 255, 255);
+    padding:0.2vh;
+    color: white;
+}
+
+/* make spacing so that each one is its own page */
+.resume-section {
+    padding-top: var(--banner-size);
+    padding-bottom: 90vh;
+}
